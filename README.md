@@ -7,6 +7,11 @@ Code for the paper ["Generating Hierarchical Explanations on Text Classification
 - pytorch == 1.2.0
 - numpy == 1.16.4
 
+### Model and data:
+Download well-trained [models and data](https://drive.google.com/drive/folders/1_ME4CbVsDGt_UBqwu8Df7m9CsAut5IXZ?usp=sharing).
+
+### Generate explanations:
+
 We provide the example code of HEDGE interpreting the LSTM, CNN and BERT model on the IMDB dataset. We adopt the BERT-base model built by huggingface: https://github.com/huggingface/transformers.
 
 In each folder, run the following command to generate explanations on the test data for a well-trained model.
