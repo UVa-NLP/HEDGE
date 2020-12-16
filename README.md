@@ -18,7 +18,7 @@ In each folder, run the following command to generate explanations on the test d
 ```
 python hedge_main_model_imdb.py --save /path/to/your/model
 ```
-We save the start-end word indexes of text spans in a hierarchy into the "hedge_interpretation_index.txt" file.
+We save the start-end word indexes of text spans in a hierarchy (in the order of importance) into the "hedge_interpretation_index.txt" file.
 
 To visualize the hierarchical explanation of a sentence, run
 ```
